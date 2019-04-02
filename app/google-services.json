@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "494095786255",
+    "firebase_url": "https://testauthdb-9116b.firebaseio.com",
+    "project_id": "testauthdb-9116b",
+    "storage_bucket": "testauthdb-9116b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494095786255:android:98f6e7696f137411",
+        "android_client_info": {
+          "package_name": "com.oAuth.Microsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494095786255-mu8no5n970ikr3lodu811dlolemuareo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjqiW8sI9LJ8p_wKGF4pWb0pH7g3y1znE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

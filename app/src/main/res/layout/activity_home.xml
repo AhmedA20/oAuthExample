@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    android:background="#fff"
+    tools:context = ".MainActivity">
+    <TextView
+        android:text = "@string/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/Welcom"
+        android:textSize = "25sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="30dp"
+        android:paddingBottom="15dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        tools:targetApi="jelly_bean" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/logo"
+        android:src="@drawable/aa"
+        android:layout_below="@id/Welcom"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo" />
+    <EditText
+        android:id="@+id/logEmail"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:ems="15"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_action_email"
+         />
+    <EditText
+        android:id="@+id/logpassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/logEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_action_pass"
+         />
+
+    <TextView
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logpassword"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/remember_me"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="sans-serif-light"/>
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/sing_up"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="sans-serif-light" />
+
+
+</RelativeLayout>
